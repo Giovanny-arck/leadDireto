@@ -230,7 +230,7 @@
           else throw new Error();
           window.location.reload();
         } catch (error) {
-          alert('Erro ao enviar. Tente novamente.');
+          alert('Você já consta no nosso banco de dados.');
           submitButton.disabled = false;
           submitButton.textContent = 'QUERO ME REGISTRAR';
         }
